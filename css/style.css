@@ -83,6 +83,8 @@
     font-size: 50px;
 }
 .section-main{
+    position: relative;
+    top: 60px;
     width: 100%;
     min-width:810px;
     font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
@@ -96,7 +98,7 @@
     padding: 1em 3em;
     border: 1px dashed red;
     position:relative;
-    top: 160px;
+    top: 100px;
 }
 .radio-button{
     margin-top: 60px;
@@ -148,4 +150,28 @@
     border-bottom:1px solid grey;
     width: 50px;
 }
+.padding{
+    padding: 20px;
+}
+.second-section-main{
+    position:relative;
+    top:60px;
+}
+.container-second-main{
+    width: 100%;
+    max-width: 1078px;
+    min-width: 500px;
+    min-height: 290px;
+    margin: 0 auto;
+    padding: 1em 0em;
+    border: 1px dashed red;
+    position:relative;
+    top: 100px;
+    border: 1px solid grey;
+}
+.title-second-section{
+    font-size: 16px;
+    border-bottom: 1px solid grey;
+}
+
 
