@@ -91,7 +91,7 @@
     width: 100%;
     max-width: 1200px;
     min-width: 500px;
-    min-height: 800px;
+    min-height: 1120px;
     margin: 0 auto;
     padding: 1em 3em;
     border: 1px dashed red;
@@ -103,7 +103,7 @@
     margin-bottom: 20px;
 }
 .d-flex-main{
-    width: calc(100% / 3);
+    
     display: flex;
     gap:110px;
 }
@@ -114,8 +114,9 @@
     margin-bottom:40px;
 }
 .col-tariff-plan{
+    width: calc(100% / 3);
     border: 1px solid grey;
-    height: 845px;
+    height: 920px;
     gap:5px;
 }
 .contain-col{
