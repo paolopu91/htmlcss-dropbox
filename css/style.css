@@ -34,7 +34,8 @@
     position: relative;
     top: 60px;
     width: 100%;
-    height: 600px;
+    height: 680px;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
 }
 .bg-color-ciano{
     background-color: #B4D0E7;
@@ -84,6 +85,7 @@
 .section-main{
     width: 100%;
     min-width:810px;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
 }
 .container-main{
     width: 100%;
@@ -94,5 +96,55 @@
     padding: 1em 3em;
     border: 1px dashed red;
     position:relative;
-    top: 205px;
+    top: 160px;
 }
+.radio-button{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.d-flex-main{
+    width: calc(100% / 3);
+    display: flex;
+    gap:110px;
+}
+.title-col{
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    margin-bottom:40px;
+}
+.col-tariff-plan{
+    border: 1px solid grey;
+    height: 845px;
+    gap:5px;
+}
+.contain-col{
+    height: 96%;
+    padding: 10px;
+}
+.font-weight{
+    font-weight: bold;
+}
+.font-size{
+    font-size: 15px;
+}
+.font-size-max{
+    font-size: 18px;
+}
+.font-size-min{
+    font-size: 10px;
+}
+.margin-bottom{
+    margin-bottom: 15px;
+}
+.margin-bottom-plus{
+    margin-bottom: 40px;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.border-bottom{
+    border-bottom:1px solid grey;
+    width: 50px;
+}
+
