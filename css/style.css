@@ -43,7 +43,6 @@
     text-align: center;
 }
 .container{
-    width: 100%;
     max-width: 1440px;
     min-width: 500px;
     min-height: 500px;
@@ -86,7 +85,6 @@
     font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
 }
 .container-main{
-    width: 100%;
     max-width: 1200px;
     min-width: 500px;
     min-height: 1120px;
@@ -161,14 +159,12 @@
     margin-top: 60px;
 }
 .container-second-main{
-    width: 100%;
     max-width: 1078px;
     min-width: 500px;
     min-height: 290px;
     margin: 0 auto;
     padding: 1em 0em;
-    position:relative;
-    top: 100px;
+    margin-top: 100px;
     border: 1px solid lightgray;
 }
 .title-second-section{
@@ -180,7 +176,6 @@
     margin-top: 60px;
 }
 .container-third-main{
-    width: 100%;
     max-width: 1078px;
     min-width: 500px;
     min-height: 290px;
@@ -191,12 +186,10 @@
 .col-left-3{
     padding: 5px;;
     min-width: 60%;
-    border: 1px solid black;
 }
 .col-right-3{
     padding: 38px;
     min-width: 40%;
-    border: 1px solid black;
 }
 .width-img{
     width: 100%;
@@ -216,7 +209,6 @@
     min-height: 770px;
     margin: 0 auto;
     padding: 1em 0em;
-    border: 1px dashed red;
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -226,7 +218,6 @@
     height: 550px;
     width: calc(33.3% - 15px);
     flex-grow: 1;
-    border: 1px solid rgb(238, 12, 12);
 }
 .fifth-section-main{
     margin-top: 60px;
@@ -249,7 +240,6 @@
     min-height: 400px;
 }
 .container-sixth-main{
-    width: 100%;
     min-width: 500px;
     min-height: 290px;
     margin: 0 auto;
@@ -313,4 +303,54 @@
 }
 .button-partner{
     border: none;
+}
+.eigth-section-main{
+    min-height: 400px;
+    background-color: white;
+}
+.container-eigth-main{
+    max-width: 1078px;
+    min-width: 500px;
+    min-height: 650px;
+    margin: 0 auto;
+    padding: 5em 0em;
+    margin-top: 30px;
+}
+.border-question{
+    width: 100%;
+}
+.question{
+    justify-content: space-between;
+}
+.section-footer{
+    min-height: 400px;
+    background-color: black;
+}
+.container-footer{
+    max-width: 1400px;
+    min-width: 500px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 5em 2em;
+    margin-top: 45px;
+}
+.col-footer{
+    padding: 20px;
+    flex-grow: 1;
+    width: calc(100% / 6);
+    color: white;
+}
+.container-footer-language{
+    max-width: 1400px;
+    min-width: 470px;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 0em 2em;
+}
+.border-bottom-footer{
+    border: 1px soldi white;
+    width: 100px;
+}
+.color-white{
+    color: white;
 }
