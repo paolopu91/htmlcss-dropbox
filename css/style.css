@@ -13,6 +13,14 @@
     z-index:999;
     background-color: white;
 }
+.decoration{
+    width: 150px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+.color-txt{
+    color: blue;
+}
 .col-left-header{
     gap:2px;
 }
@@ -125,6 +133,9 @@
 }
 .font-size-max{
     font-size: 18px;
+}
+.font-size-max-max{
+    font-size: 50px;
 }
 .font-size-min{
     font-size: 10px;
